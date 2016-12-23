@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>支付订单</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/s.css">
+    <link rel="stylesheet" href="css/s-ext.css">
+	<link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <div class="page-group">
+         
+        <div class="page">
+            <!-- 标题栏 -->
+            <header class="bar bar-nav">
+                <a class="icon iconfont pull-left back">&#xe61d;</a>
+				<a href="/" class="icon iconfont pull-right">&#xe612;</a>
+                <h1 class="title">支付订单</h1>
+            </header>
+            
+            <div class="content infinite-scroll" style="background:#fff">
+                <div class="content-block" style="margin:0.5rem 0;">
+                  <ul class="zc_order_box">
+                      <li>项目名称：fan花音乐神灯</li>
+                      <li>支持金额：<font color="red">60元</font></li>  
+                      <li class="zc_order_hb clear"><span>收货信息：</span><p clear="clear">宋世军  15038299626 <br/>河南省 郑州市 金水区 <br />花园路柳林北大街与东三街交叉口</p></li>          
+                      <li><span>备注：</span>不用发货，自提</li>
+                  </ul>
+                </div>
+                 <div style="height:1.5rem;line-height:1.5rem;color:#999;font-size:0.65rem;background:#efefef;padding-left:0.5rem">请选择支付方式：</div>
+                 <ul class="deal_pay_type">
+                      <li>
+                          <label class="label-checkbox item-content">
+                                <span class="iconfont">&#xe60b;</span>
+                                <div class="deal_pay_name"><b>微信支付</b><em>推荐微信客户使用</em></div>
+                                <div class="pay_check_box">
+                                    <input type="radio" name="my-radio">
+                                    <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+                                </div>
+                                 
+                          </label>
+                      </li>
+                      <li>
+                          <label class="label-checkbox item-content">
+                                <span class="iconfont">&#xe60d;</span>
+                                <div class="deal_pay_name"><b>支付宝支付</b><em>推荐支付宝客户使用</em></div>
+                                <div class="pay_check_box">
+                                    <input type="radio" name="my-radio">
+                                    <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+                                </div>
+                                 
+                          </label>
+                      </li>
+                        <li>
+                          <label class="label-checkbox item-content">
+                                <span class="iconfont">&#xe60c;</span>
+                                <div class="deal_pay_name"><b>通联支付</b><em>推荐开通网银客户使用</em></div>
+                                <div class="pay_check_box">
+                                    <input type="radio" name="my-radio">
+                                    <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+                                </div>
+                                 
+                          </label>
+                      </li>
+                 </ul>
+                  <div class="content-block""> <p><a href="pay_success.html" class="button button-fill" style="background: #2ec7a3">确认支付</a></p></div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/s.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/s-ext.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/common.js' charset='utf-8'></script>
+  </body>
+</html>

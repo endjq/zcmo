@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的生活</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/s.css">
+    <link rel="stylesheet" href="css/s-ext.css">
+	<link rel="stylesheet" href="css/common.css">
+  </head>
+<style>
+
+</style>
+  <body>
+    <div class="page-group">
+         
+        <div class="page">
+            <!-- 标题栏 -->
+            <header class="bar bar-nav">
+                <a class="icon iconfont pull-left back">&#xe61d;</a>
+				<a href="/" class="icon iconfont pull-right">&#xe612;</a>
+                <h1 class="title">发布项目</h1>
+            </header>
+
+            <div class="content infinite-scroll" style="background: #fff">
+            <form href="" method="post" onsubmit="return false;">
+                   <div class="content-padded zc_fabu">
+                     <ul>
+                          <li>
+                              <span>您的项目名称</span>
+                              <div class="clear"><input type="text" name="title" placeholder="输入您的项目名称(最多可输入20字)" maxlength="20" /></div>
+                          </li>
+                          <li>
+                              <span>您的项目简介</span>
+                              <div class="clear"><textarea rows="3" cols="brief" placeholder="请简单的描述一下您的项目(最多可输入100字)" maxlength="100"></textarea></div>
+                          </li>
+                           <li>
+                              <span>您的项目类型</span>
+                              <label class="label-checkbox item-content">
+                                         <input type="radio" name="cate" value="1" checked>
+                                         <div class="item-media"><i class="icon icon-form-checkbox"></i>产品众筹</div>
+                              </label>
+                               <label class="label-checkbox item-content">
+                                         <input type="radio" name="cate" value="2">
+                                         <div class="item-media"><i class="icon icon-form-checkbox"></i>股权众筹</div>
+                              </label>
+                               <label class="label-checkbox item-content">
+                                         <input type="radio" name="cate" value="3">
+                                         <div class="item-media"><i class="icon icon-form-checkbox"></i>公益众筹</div>
+                              </label>
+                          </li>
+                           <li>
+                              <span>您的项目所筹资金量</span>
+                              <div class="clear"><input type="text" name="title" placeholder="例：2万人民币" maxlength="10" /></div>
+                          </li>
+                            <li>
+                              <span>联系方式</span>
+                              <div class="clear"><input type="text" name="title" placeholder="请输入您的手机号" maxlength="11" /></div>
+                          </li>
+                     </ul>
+                     <div class="fabu_btn"><button type="submit">提交</button></div>
+                 </div>
+                 </form>  
+            </div>
+        </div>
+    </div>  
+    <script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/s.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/s-ext.js' charset='utf-8'></script>
+     <script type='text/javascript' src='js/common.js' charset='utf-8'></script>   
+  </body>
+</html>
